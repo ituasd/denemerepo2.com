@@ -7,4 +7,5 @@ b = b-3
 c = np.column_stack((a,b))#iki ayri arrayi birer sütun olarak tek bir array haline getirmeye vesile olyor
 cc = pd.DataFrame(c)#parametre olarak array alabiliyor it can take an array as a parameter
 cc.columns = ["X","Y"]
+cc['X'] = 12*cc['X']
 print(cc)
