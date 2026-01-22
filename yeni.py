@@ -1,1 +1,2 @@
-print("merhaba dunya")
+print("merhaba dunya") 
+print("a")
